@@ -1,0 +1,110 @@
+.container {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    margin-top: -100px;
+    margin-left: -100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linea{
+    /* Rectangle 6 */
+
+position: absolute;
+width: 80px;
+height: 4px;
+
+/* Dark blue/dark-blue-300 */
+background: #0A3871;
+border-radius: 8px;
+
+}
+
+.correct-words {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    margin: 25px;
+    justify-content: center;
+}
+
+.wrong-words{
+    font-size: 30px;
+    color: #0A3871;
+}
+
+.wrong-words span{
+    padding-right: 10px;
+}
+
+
+
+
+.correct-words h2{
+    font-size: 50px;
+    color: #0A3871;
+}
+
+.cw {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.buttons-game {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.btnStart {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    border: none;
+}
+
+.btnCancel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    justify-content: center;
+    font-size: 20px;
+    background: none;
+}
