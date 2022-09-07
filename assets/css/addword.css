@@ -33,7 +33,7 @@ textarea::placeholder {
     flex-direction: row;
 }
 
-.btnStart {
+.btnSaveWord {
     display: flex;
     flex-direction: row;
     padding: 24px;
