@@ -10,15 +10,11 @@ nav img {
 }
 
 /*   SECTIONS TO SHOW   */
-.start-section{
-    display: none;
-}
-
-.game-section{
+#game-section{
     display:none;
 }
 
-.addword-section{
+#addword-section{
     display: none;
 }
 
@@ -49,7 +45,7 @@ nav img {
     padding: 24px;
     gap: 8px;
     width: 317px;
-    height: 60px;
+    height: 100px;
     background: #0A3871;
     border-radius: 24px;
     justify-content: center;
