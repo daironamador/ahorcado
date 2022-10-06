@@ -83,8 +83,27 @@ nav img {
     align-items: center;
     gap: 55px;
 }
+.win-or-lose {
+    position: absolute;
+    top: 25%;
+    right: 40px;
+}
 
-.keyboard {
+#win {
+    font-size: 25px;
+    color: #2dce86;
+    
+    display: none;
+}
+
+#lose {
+    font-size: 25px;
+    color: #d43e20;
+    display: none;
+}
+
+
+#keyboard {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,14 +111,14 @@ nav img {
 
 .linea{
 position: absolute;
-width: 80px;
+width: 50px;
 height: 4px;
 background: #0A3871;
 border-radius: 8px;
 
 }
 
-.correct-words {
+#correct-words {
     display: flex;
     flex-direction: row;
     gap: 55px;
@@ -107,9 +126,13 @@ border-radius: 8px;
     justify-content: center;
 }
 
-.wrong-words{
+#wrong-words{
     font-size: 30px;
     color: #0A3871;
+}
+
+.textHide{
+    display: none;
 }
 
 .wrong-words span{
@@ -119,7 +142,7 @@ border-radius: 8px;
 
 
 
-.correct-words h2{
+#correct-words h2{
     font-size: 50px;
     color: #0A3871;
 }
@@ -254,4 +277,9 @@ textarea::placeholder {
     justify-content: center;
     font-size: 20px;
     background: none;
+}
+
+/* MUNIECO */
+#mastil,#base,#rope ,#head,#body, #left-hand,#right-hand,#left-leg,#right-leg{
+    display: none;
 }
